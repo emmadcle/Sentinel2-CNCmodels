@@ -8,3 +8,5 @@ Two GPR models based on PROSAIL-PRO variables were evaluated: a protein-based mo
 ## Use
 
 In order to run the code, you will need a Google Earth Engine account and create an ImageCollection asset. When running the main notebook, you will have to connect to your own GEE account. Make sure to copy your ImageCollection path into the script (including a closing / at the end). You can adjust the region and time frame of interest to your own liking. Once the maps are exported to your GEE assets, you can download them into your Google drive. The images include two bands: the first one has the CNC estimates and the seconds the model's epistemic uncertainty.
+
+The models can also be run directly in GEE, although results only include estimates and no uncertainties, due to high computational costs. The models and example script can be accessed on: https://code.earthengine.google.com/?accept_repo=users/declerckemma/S2-EBD-GPR-CNC.
